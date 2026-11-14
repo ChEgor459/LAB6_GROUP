@@ -2,8 +2,13 @@ def add(a, b):
     return a + b
 
 
-def subtract(a, b)
+def multiply(a, b):
+    return a * b
+
+
+def subtract(a, b):
     return a - b
+
 
 def main():
     a = float(input("Введите первое число: "))
@@ -11,7 +16,9 @@ def main():
     result = add(a, b)
     print(f"{a} + {b} = {result}")
     print('Суммирование выполнено!')
+    print("multiply(2, 3) =", multiply(2, 3))
     print("subtract(5, 3) =", subtract(5, 3))
+
 
 if __name__ == "__main__":
     main()
